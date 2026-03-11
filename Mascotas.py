@@ -1,21 +1,24 @@
 print("BIENVENIDO A LA TIENDA DE MASCOTAS")
 print("¿Que mascota posee?")
-print("1) Perro")
-print("2) Gato")
-print("3) Conejo")
+print("-perro")
+print("-gato")
+print("-conejo")
 print()
-animal=int(input("R:"))
+animal=str(input("R:")).strip().lower()
 
-while animal >= 4:
+while animal == "":
     print("Opcion no existente")
     animal=int(input("R:"))
 
-if animal == 1:
+if animal == "perro":
     print("Te recomendamos darle Dog show a tu canino")
 
-elif animal == 2:
+elif animal == "gato":
     print("Te recomendamos Mirringo para tu gatico")
 
+elif animal == "conejo":
+    print("Te recomendamos zanahorias para tu conejo")
+
 else:
-    print("Te recomendamos darle zanahorias a tu conejo")
+    print("No conocemos a ese animal")
 
