@@ -3,7 +3,7 @@ fresa=0
 vainilla=0
 choco=0
 
-for i in range(0,5):
+for i in range(0,5,1):
     ice=str(input("Que sabor de helado desea?:")).strip().lower()
     
     if ice == "fresa":
