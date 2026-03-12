@@ -11,7 +11,7 @@ while elecc >= 4:
     elecc= int(input("Seleccione una opcion (1-3):"))
 
 if elecc == 1:
-    elecc= 5000
+    elecc= 4000
 
 elif elecc == 2:
     elecc= 3500
